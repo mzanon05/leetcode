@@ -1,6 +1,7 @@
 import leetcode.problems.longestcommonprefix.LongestCommonPrefix;
 import leetcode.problems.palindrome.PalindromeNumber;
 import leetcode.problems.removeduplicatesarray.RemoveDuplicatesFromArray;
+import leetcode.problems.removeelementfromarray.RemoveElementFromArray;
 import leetcode.problems.romantointeger.RomanToInteger;
 import leetcode.problems.twosum.TwoSum;
 
@@ -22,6 +23,9 @@ public class Main {
 
         //System.out.println("Response: "+ RemoveDuplicatesFromArray.removeDuplicates(new int[]{1,1,2}));
         //System.out.println("Response: "+ RemoveDuplicatesFromArray.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+
+        //System.out.println("Response : "+ RemoveElementFromArray.removeElement(new int[]{3, 2, 2, 3}, 3));
+        //System.out.println("Response : "+ RemoveElementFromArray.removeElement(new int[]{0,1,2,2,3,0,4,2}, 2));
     }
 
 }
