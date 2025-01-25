@@ -6,6 +6,7 @@ import leetcode.problems.removeelementfromarray.RemoveElementFromArray;
 import leetcode.problems.romantointeger.RomanToInteger;
 import leetcode.problems.searchinsertposition.SearchInsertPostion;
 import leetcode.problems.twosum.TwoSum;
+import leetcode.problems.validparentheses.ValidParentheses;
 
 import java.util.Arrays;
 
@@ -36,8 +37,10 @@ public class Main {
 //        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("abc", "c"));
 
 //        System.out.println("Response : "+ SearchInsertPostion.searchInsertV1(new int[]{1,3,5,6}, 5));
-        System.out.println("Response : "+ SearchInsertPostion.searchInsertV2(new int[]{1,3,5,6}, 5));
+//        System.out.println("Response : "+ SearchInsertPostion.searchInsertV2(new int[]{1,3,5,6}, 5));
 //        System.out.println("Response : "+ SearchInsertPostion.searchInsertV2(new int[]{1,3,5,6}, 2));
+
+        System.out.println("Response: "+ ValidParentheses.isValidV2("]"));
     }
 
 }
