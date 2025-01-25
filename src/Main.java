@@ -1,5 +1,6 @@
 import leetcode.problems.indexoffirstocurrencestring.FindIndexOfFirstOcurrenceInString;
 import leetcode.problems.longestcommonprefix.LongestCommonPrefix;
+import leetcode.problems.mergetwosortedlists.MergeTwoSortedLists;
 import leetcode.problems.palindrome.PalindromeNumber;
 import leetcode.problems.removeduplicatesarray.RemoveDuplicatesFromArray;
 import leetcode.problems.removeelementfromarray.RemoveElementFromArray;
@@ -40,7 +41,28 @@ public class Main {
 //        System.out.println("Response : "+ SearchInsertPostion.searchInsertV2(new int[]{1,3,5,6}, 5));
 //        System.out.println("Response : "+ SearchInsertPostion.searchInsertV2(new int[]{1,3,5,6}, 2));
 
-        System.out.println("Response: "+ ValidParentheses.isValidV2("]"));
+//        System.out.println("Response: "+ ValidParentheses.isValidV2("]"));
+
+        var listNodeOne = new MergeTwoSortedLists.ListNode(1,
+                new MergeTwoSortedLists.ListNode(2,
+                        new MergeTwoSortedLists.ListNode(4)));
+        var listNodeTwo = new MergeTwoSortedLists.ListNode(1,
+                new MergeTwoSortedLists.ListNode(3,
+                        new MergeTwoSortedLists.ListNode(4)));
+        System.out.println("Response: "+ MergeTwoSortedLists.mergeTwoLists(listNodeOne, listNodeTwo));
     }
 
+    private static void teste(MergeTwoSortedLists.ListNode node) {
+        var str = new StringBuilder();
+        str.append("[");
+        while (node != null) {
+            str.append(node.getVal());
+            if (node.getNext() != null) {
+                str.append(", ");
+            }
+            node = node.getNext();
+        }
+        str.append("]");
+        System.out.println(str);
+    }
 }
