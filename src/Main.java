@@ -1,3 +1,4 @@
+import leetcode.problems.indexoffirstocurrencestring.FindIndexOfFirstOcurrenceInString;
 import leetcode.problems.longestcommonprefix.LongestCommonPrefix;
 import leetcode.problems.palindrome.PalindromeNumber;
 import leetcode.problems.removeduplicatesarray.RemoveDuplicatesFromArray;
@@ -26,6 +27,12 @@ public class Main {
 
         //System.out.println("Response : "+ RemoveElementFromArray.removeElement(new int[]{3, 2, 2, 3}, 3));
         //System.out.println("Response : "+ RemoveElementFromArray.removeElement(new int[]{0,1,2,2,3,0,4,2}, 2));
+
+        //System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStr("sadbutsad", "sad"));
+        //System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStr("leetcode", "leeto"));
+//        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("mississippi", "issipi"));
+//        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("mississippi", "issip"));
+        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("abc", "c"));
     }
 
 }
