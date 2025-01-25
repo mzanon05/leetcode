@@ -4,6 +4,7 @@ import leetcode.problems.palindrome.PalindromeNumber;
 import leetcode.problems.removeduplicatesarray.RemoveDuplicatesFromArray;
 import leetcode.problems.removeelementfromarray.RemoveElementFromArray;
 import leetcode.problems.romantointeger.RomanToInteger;
+import leetcode.problems.searchinsertposition.SearchInsertPostion;
 import leetcode.problems.twosum.TwoSum;
 
 import java.util.Arrays;
@@ -32,7 +33,11 @@ public class Main {
         //System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStr("leetcode", "leeto"));
 //        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("mississippi", "issipi"));
 //        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("mississippi", "issip"));
-        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("abc", "c"));
+//        System.out.println("Response : "+ FindIndexOfFirstOcurrenceInString.strStrV2("abc", "c"));
+
+//        System.out.println("Response : "+ SearchInsertPostion.searchInsertV1(new int[]{1,3,5,6}, 5));
+        System.out.println("Response : "+ SearchInsertPostion.searchInsertV2(new int[]{1,3,5,6}, 5));
+//        System.out.println("Response : "+ SearchInsertPostion.searchInsertV2(new int[]{1,3,5,6}, 2));
     }
 
 }
